@@ -102,6 +102,10 @@ main {
     margin: 0px auto;
 }
 
+main section {
+    margin-top: 130px;
+}
+
 /* about styles section*/
 .about {
     padding: 130px;
@@ -124,18 +128,22 @@ main {
     text-align: center;
     counter-reset: #757575;
 }
+
 .about-info-container {
     display: flex;
     justify-content: space-around;
 }
+
 .about-info-container {
     text-align: center;
 }
+
 .info-title {
     margin-bottom: 0px;
     color: #757575;
     font-weight: 400;
 }
+
 .info-des {
     margin-top: 5px;
     color: #474747;
@@ -153,14 +161,24 @@ main {
     gap: 24px;
     color: #757575;
 }
+
 .skill {
     background-color: white;
     padding: 30px;
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 .skill-title {
     color: #181818;
     font-size: 20px;
+    font-weight: 700;
+}
+
+/* Resume section styles */
+
+.resume-title {
+    color: #474747;
+    font-size: 30px;
     font-weight: 700;
 }
