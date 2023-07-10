@@ -5,10 +5,23 @@ body {
     font-family: 'Open Sans', sans-serif;
 }
 
+.btn-primary {
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0px;
+    color: white;
+    padding: 18px 35px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+}
+
 /* nav related styles */
 
 nav {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav-title {
@@ -23,9 +36,15 @@ font-weight: 800;
 
 nav > ul {
     display: flex;
+    align-items: center;
 }
 
-nav > ul > li {
+nav li {
     list-style: none;
-    padding-right: 10px;
+    padding-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
 }
