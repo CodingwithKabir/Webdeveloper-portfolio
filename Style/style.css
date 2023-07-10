@@ -146,3 +146,13 @@ main {
 #whattodo {
     padding: 0px 130px;
 }
+
+.skill-section {
+    display: flex;
+    margin-top: 60px;
+}
+.skill {
+    background-color: white;
+    padding: 30px;
+    margin: 24px;
+}
