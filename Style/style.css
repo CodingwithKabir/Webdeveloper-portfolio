@@ -141,3 +141,8 @@ main {
     color: #474747;
     font-weight: 600;
 }
+
+/* what i do section styles */
+#whattodo {
+    padding: 0px 130px;
+}
