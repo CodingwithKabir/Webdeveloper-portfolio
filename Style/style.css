@@ -245,7 +245,9 @@ footer {
     font-weight: 400;
 }
 
-.social-links {}
+.social-links a{
+    margin-right: 20px;
+}
 
 .contact input[type="text"], .contact input[type="email"],
 textarea {
